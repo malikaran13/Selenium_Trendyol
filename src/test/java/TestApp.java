@@ -27,7 +27,7 @@ public class TestApp {
     @Test
     public void testApp() throws IOException, InterruptedException {
         loginPage.login();
-        /*homePage.verifyPage();
+        homePage.verifyPage();
         homePage.openBoutique();
         //this code line takes some time since it verifies all the images
         homePage.listOfImagesFailed();
@@ -35,7 +35,7 @@ public class TestApp {
         boutiquePage.waitForSeconds(2000);
         boutiquePage.openProduct();
         boutiquePage.waitForSeconds(2000);
-        productPage.addToBasket();*/
+        productPage.addToBasket();
     }
 
     @After
